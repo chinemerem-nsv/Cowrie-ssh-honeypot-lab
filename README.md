@@ -20,6 +20,8 @@
     
 8. [Results and Conclusion](#results-and-conclusion)
 
+9. [Key Takeaways](#key-takeaways)
+    
 ---
 
 ## Overview
@@ -126,3 +128,17 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
 - Demonstrates practical blue-team skills: honeypot deployment, traffic monitoring, and log analysis.
 
 ![Honeypot Running](screenshots/cowrie.jpeg)
+
+---
+
+## Key Takeaways
+
+- Hands-on simulation improved understanding of TCP and SSH communication beyond theoretical learning.
+  
+- Correlating Cowrie logs with Wireshark captures demonstrated the value of analyzing multiple data sources during investigations.
+  
+- Viewing packet captures as system-to-system communication simplifies network traffic analysis.
+  
+- Honeypots provide a safe environment to observe attacker interaction without exposing real infrastructure.
+  
+- Troubleshooting configuration and connectivity issues reinforced practical blue-team problem-solving skills.
