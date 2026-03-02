@@ -125,4 +125,4 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
 
 - Demonstrates practical blue-team skills: honeypot deployment, traffic monitoring, and log analysis.
 
-![Honeypot Running](cowrie.jpeg)
+![Honeypot Running](screenshots/cowrie.jpeg)
