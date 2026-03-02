@@ -71,6 +71,8 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
      
    - Session termination (FIN, ACK)
 
+   ![SSH Attack Terminal](screenshots/attacks.png)
+
 ---
 
 ## Network Traffic Analysis
@@ -85,6 +87,8 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
   
 - Source/destination IPs swap normally during request/response interactions.
 
+![Wireshark Handshake](screenshots/tcp.png)
+
 ---
 
 ## Cowrie Logs Analysis
@@ -95,6 +99,8 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
   
 - Logs include timestamps and connection metadata.
 
+![Cowrie Logs](screenshots/ssh.png)
+
 ---
 
 ## Nmap Scan
@@ -104,6 +110,9 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
 - Example scan command:
 
   **nmap -p 2222 10.84.136.200**
+
+  ![Nmap Scan](screenshots/nmap.jpeg)
+  
 ---
 
 ## Results and Conclusion
@@ -115,3 +124,5 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
 - Nmap confirmed the honeypot port was open and listening.
 
 - Demonstrates practical blue-team skills: honeypot deployment, traffic monitoring, and log analysis.
+
+![Honeypot Running](cowrie.jpeg)
