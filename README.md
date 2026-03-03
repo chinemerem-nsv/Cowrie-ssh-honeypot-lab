@@ -17,10 +17,12 @@
 6. [Cowrie Logs Analysis](#cowrie-logs-analysis)
     
 7. [Nmap Scan](#nmap-scan)
+   
+8. [Defense Recommendations](#defense-recommendations)
     
-8. [Results and Conclusion](#results-and-conclusion)
+9. [Results and Conclusion](#results-and-conclusion)
 
-9. [Key Takeaways](#key-takeaways)
+10. [Key Takeaways](#key-takeaways)
     
 ---
 
@@ -117,6 +119,18 @@ This lab documents the deployment of a **Cowrie SSH honeypot** to simulate SSH a
   
 ---
 
+## Defense Recommendations
+
+- Restrict SSH access with firewall rules
+  
+- Use non-default SSH ports
+  
+- Implement SSH key authentication
+  
+- Monitor logs and deploy honeypots for early detection
+
+  ---
+  
 ## Results and Conclusion
 
 - Cowrie successfully captured SSH attacks and logged all connection attempts.
